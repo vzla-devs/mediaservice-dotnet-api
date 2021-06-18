@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.IO;
 
-namespace VehiclesDealerApi.Controllers
+namespace MediaServiceApi.Controllers
 {
     [Route("api/pictures")]
     [ApiController]

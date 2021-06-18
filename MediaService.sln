@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesDealerApi", "VehiclesDealerApi\VehiclesDealerApi.csproj", "{3A00EBC7-27B7-4EBA-83AB-CF25BA596B47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaServiceApi", "MediaServiceApi\MediaServiceApi.csproj", "{3A00EBC7-27B7-4EBA-83AB-CF25BA596B47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
