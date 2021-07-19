@@ -13,15 +13,16 @@ namespace MediaServiceApi.Controllers
             return Ok();
         }
 
-        [HttpPost]
+        [HttpPost, DisableRequestSizeLimit, DisableFormValueModelBinding]
         public OkResult Post([FromBody] List<IFormFile> pictures) {
-            pictures.ForEach(async pic => {
+            var aa = pictures.ToArray().Length;
+            /*pictures.ForEach(async pic => {
                 var filePath = Path.GetFullPath("public/uploads");
                 var fileName = Path.GetTempFileName();
                 var fullPath = Path.Combine(filePath, fileName);
                 using FileStream stream = System.IO.File.Create(fullPath);
                 await pic.CopyToAsync(stream);
-            });
+            });*/
             return Ok();
         }
     }
